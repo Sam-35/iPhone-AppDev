@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var game: Concentration = Concentration()
 
     var flipCount = 0 {
         didSet {
@@ -23,7 +24,7 @@ class ViewController: UIViewController {
     var emojiChoices = ["🎃", "👻", "🎃", "👻"]
     
     @IBAction func touchCard(_ sender: UIButton) {
-        flipCount += 1
+        flipCount += 1 //increment counter when button is clicked
         if let cardNumber = cardButtons.firstIndex(of: sender) {
             flipCard(withEmoji: emojiChoices[cardNumber], on: sender)
         } else {
