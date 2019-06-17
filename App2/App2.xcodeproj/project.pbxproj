@@ -14,6 +14,10 @@
 		22B9475622B1B01D00E13326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B9475522B1B01D00E13326 /* Assets.xcassets */; };
 		22B9475922B1B01D00E13326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B9475722B1B01D00E13326 /* LaunchScreen.storyboard */; };
 		22B9476522B1B21300E13326 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22B9476322B1B21300E13326 /* Data.xcdatamodeld */; };
+		22B9476722B1B3CB00E13326 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9476622B1B3CB00E13326 /* Note.swift */; };
+		22B9476922B1B83A00E13326 /* NoteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9476822B1B83A00E13326 /* NoteStorage.swift */; };
+		22B9479722B207EF00E13326 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9479622B207EF00E13326 /* Helper.swift */; };
+		22B9479922B2375F00E13326 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9479822B2375F00E13326 /* DataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		22B9475822B1B01D00E13326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B9475A22B1B01D00E13326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22B9476422B1B21300E13326 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		22B9476622B1B3CB00E13326 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		22B9476822B1B83A00E13326 /* NoteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStorage.swift; sourceTree = "<group>"; };
+		22B9479622B207EF00E13326 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		22B9479822B2375F00E13326 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				22B9474C22B1B01C00E13326 /* AppDelegate.swift */,
+				22B9479622B207EF00E13326 /* Helper.swift */,
+				22B9479822B2375F00E13326 /* DataHelper.swift */,
+				22B9476622B1B3CB00E13326 /* Note.swift */,
+				22B9476822B1B83A00E13326 /* NoteStorage.swift */,
 				22B9474E22B1B01C00E13326 /* MasterViewController.swift */,
 				22B9475022B1B01C00E13326 /* DetailViewController.swift */,
 				22B9475222B1B01C00E13326 /* Main.storyboard */,
@@ -141,9 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B9476722B1B3CB00E13326 /* Note.swift in Sources */,
+				22B9476922B1B83A00E13326 /* NoteStorage.swift in Sources */,
 				22B9475122B1B01C00E13326 /* DetailViewController.swift in Sources */,
 				22B9474F22B1B01C00E13326 /* MasterViewController.swift in Sources */,
 				22B9474D22B1B01C00E13326 /* AppDelegate.swift in Sources */,
+				22B9479922B2375F00E13326 /* DataHelper.swift in Sources */,
+				22B9479722B207EF00E13326 /* Helper.swift in Sources */,
 				22B9476522B1B21300E13326 /* Data.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
